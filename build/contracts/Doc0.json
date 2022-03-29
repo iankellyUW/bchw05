@@ -1,0 +1,205 @@
+{
+  "contractName": "Doc0",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Doc0.sol\":\"Doc0\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Doc0.sol\":{\"keccak256\":\"0x951ca7a1681d8963bd2ca9801f0f5e79d24609dfaed45b0a7086ff2976f0e111\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7a3c8d3d827c32c69a2be79330b5490dcd79263dd3353e83b6b6ea88c93e5df2\",\"dweb:/ipfs/QmdkBK7fVyLwu7ChNPiv4xnYU6Yk8M478Mf8SDBrHuAr61\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212208712570c900d93336fd5261ccc733dec93113c401cf438ad249129f005185dac64736f6c634300080c0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212208712570c900d93336fd5261ccc733dec93113c401cf438ad249129f005185dac64736f6c634300080c0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:46:0:-:0;;;84:26;;;;;;;;;;66:46;;;;;;",
+  "deployedSourceMap": "66:46:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Doc0 {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/home/ian/Desktop/S22-4010/homework/05/contracts/Doc0.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Doc0.sol",
+    "exportedSymbols": {
+      "Doc0": [
+        6
+      ]
+    },
+    "id": 7,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Doc0",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "Doc0",
+        "nameLocation": "75:4:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "105:5:0",
+              "statements": []
+            },
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "95:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "105:0:0"
+            },
+            "scope": 6,
+            "src": "84:26:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "66:46:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:81:0"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/Doc0.sol",
+    "exportedSymbols": {
+      "Doc0": [
+        6
+      ]
+    },
+    "id": 7,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Doc0",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "Doc0",
+        "nameLocation": "75:4:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "105:5:0",
+              "statements": []
+            },
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "95:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "105:0:0"
+            },
+            "scope": 6,
+            "src": "84:26:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "66:46:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:81:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.12+commit.f00d7308.Emscripten.clang"
+  },
+  "networks": {
+    "1648179919114": {
+      "events": {},
+      "links": {},
+      "address": "0x42CF3f9081d9Fc7E75d12A4700744f99154DD33f",
+      "transactionHash": "0xbf119ca2675edef963e1a38d5e6e8797ecb36932760b22942409d08029379f7e"
+    }
+  },
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-03-25T20:32:00.951Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
